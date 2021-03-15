@@ -2,7 +2,7 @@
 
 > [CL-Aff Shared Task] Happiness Ingredients Detection using Multi-Task Deep Learning
 
-We propose a novel way of deploying deep multi-task learning models for the task of detecting disclosure and support. We calculate all possible logical relations among six labels, represented in a Venn diagram. Based on it, the six labels are distributed to multiple fragment clusters. Then, a multi-task deep neural network is built on the groups.
+We propose a novel deep multi-task learning model for the task of detecting happiness ingredients.  The two classes/labels "agency" and "social" are treated as two separate tasks for training Deep Learning classifiers. Then, we train a multi-task deep learning classifier to see if the shared knowledge between the two tasks can improve the overall results.  In addition, we compare several models that use different kinds of word embeddings: different dimensions of the vectors, fixed versus trainable embeddings, initialized randomly or with existing embeddings.
 
 
 
